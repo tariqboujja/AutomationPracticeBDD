@@ -18,4 +18,10 @@ public class HomePage {
     @FindBy(xpath = "//nav/a[text()='Calendar']")
     public WebElement calendarBtn;
 
+    @FindBy(xpath = "//nav/a[text()='Others']")
+    public WebElement othersBtn;
+
+    @FindBy(xpath = "//nav/a[text()='User-Mgt']")
+    public WebElement userMgtBtn;
+
 }

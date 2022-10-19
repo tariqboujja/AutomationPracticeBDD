@@ -5,13 +5,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.BrowserUtils;
 
-public class OthersPage {
+public class UserMgtPage {
 
-    public OthersPage(){
+    public UserMgtPage(){
         PageFactory.initElements(BrowserUtils.getDriver(), this);
     }
 
-    @FindBy(id = "btn-status")
-    public WebElement statusBtn;
+//    @FindBy(xpath = "//button[text()='Login']")
+//    public WebElement loginBtn;
 
+    @FindBy(id = "practice-form")
+    public WebElement loginBtn;
 }
