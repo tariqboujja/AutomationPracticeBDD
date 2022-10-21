@@ -1,8 +1,7 @@
 Feature: User Mgt page scenarios
-  Background: Open Pop-Up page
+  Background: Navigate to User-Mgt page
     Given I open url of homepage
     When I click a button User-Mgt
-
 
   @US4001 @regression
   Scenario: User-Mgt page title test
@@ -10,5 +9,4 @@ Feature: User Mgt page scenarios
 
   @US4002
   Scenario: Login button test
-    
     Then Verify Login button is present
