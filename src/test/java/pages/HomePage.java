@@ -24,4 +24,19 @@ public class HomePage {
     @FindBy(xpath = "//nav/a[text()='User-Mgt']")
     public WebElement userMgtBtn;
 
+    @FindBy(xpath = "//nav/a[text()='Pop-Up']")
+    public WebElement popUpBtn;
+
+    @FindBy(linkText = "Home")
+    public WebElement homeLinkText;
+
+    @FindBy(linkText = "Tables")
+    public WebElement tablesLinkText;
+
+    @FindBy(linkText = "Synchronization")
+    public WebElement synchronizationLinkText;
+
+    @FindBy(linkText = "iFrames")
+    public WebElement iframesLinkText;
+
 }
