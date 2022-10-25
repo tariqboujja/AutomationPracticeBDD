@@ -15,3 +15,6 @@ Feature: Home page tests
     Then Verify button "Tables" is displayed
     Then Verify button "Synchronization" is displayed
     Then Verify button "iFrames" is displayed
+
+
+
