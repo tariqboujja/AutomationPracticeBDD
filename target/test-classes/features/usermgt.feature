@@ -37,4 +37,3 @@ Feature: User Mgt page scenarios
       | E-mail       | j.wick@contractor.gov |
       | role         | Mentor                |
     And I click a button "Submit"
-
