@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="runners.CukesRunner" time="5.543" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="runners.CukesRunner" time="4.793" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -64,13 +64,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="I open url of homepage" classname="Test nav buttons are displayed" time="0.035"/>
-  <testcase name="Verify button &quot;Home&quot; is displayed" classname="Test nav buttons are displayed" time="0.734"/>
-  <testcase name="Verify button &quot;Calendar&quot; is displayed" classname="Test nav buttons are displayed" time="0.676"/>
-  <testcase name="Verify button &quot;User-Mgt&quot; is displayed" classname="Test nav buttons are displayed" time="0.677"/>
-  <testcase name="Verify button &quot;Others&quot; is displayed" classname="Test nav buttons are displayed" time="0.673"/>
-  <testcase name="Verify button &quot;Tables&quot; is displayed" classname="Test nav buttons are displayed" time="0.673"/>
-  <testcase name="Verify button &quot;Synchronization&quot; is displayed" classname="Test nav buttons are displayed" time="0.669"/>
-  <testcase name="Verify button &quot;iFrames&quot; is displayed" classname="Test nav buttons are displayed" time="0.662"/>
-  <testcase name="Test nav buttons are displayed" classname="Test nav buttons are displayed" time="0.744"/>
+  <testcase name="I open url of homepage" classname="Choosing date from calendar" time="0.031"/>
+  <testcase name="I click nav button &quot;Calendar&quot;" classname="Choosing date from calendar" time="0.824"/>
+  <testcase name="I click a button &quot;endDateInput&quot;" classname="Choosing date from calendar" time="0.84"/>
+  <testcase name="I click a button &quot;endDateCalendar&quot;" classname="Choosing date from calendar" time="0.759"/>
+  <testcase name="I click a button &quot;Submit&quot;" classname="Choosing date from calendar" time="0.699"/>
+  <testcase name="text will display 1 day difference" classname="Choosing date from calendar" time="0.778"/>
+  <testcase name="Choosing date from calendar" classname="Choosing date from calendar" time="0.862"/>
 </testsuite>
